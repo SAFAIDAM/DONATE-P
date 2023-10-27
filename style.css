@@ -298,6 +298,12 @@ margin-top: -30px;
   top: -48px;
     right: -378px;
 }
+
+footer{
+  background-color: #000000;
+  height: 402px;
+  flex-shrink: 0;
+}
 .cont-footer{
   padding-top: 80px;
   display: flex;
@@ -308,11 +314,6 @@ margin-top: -30px;
   display: flex;
   justify-content: space-between;
   gap: 70px;
-}
-footer{
-  background-color: #000000;
-  height: 402px;
-  flex-shrink: 0;
 }
 .listfooter ul{
   color: white;
