@@ -373,8 +373,32 @@ font-weight: 400;
 line-height: normal;
 opacity: 0.8;
 }
-/* 
+.mobile-menu{
+  display: none;
+}
+
 @media screen and (max-width: 768px){
+  
+  .list{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  header{
+    flex-direction: column;
+  }
+
+  header .section{
+    flex-direction: column;
+  }
+  .section {
+    width: 300px;
+    text-align: center;
+  }
+  .respo img{
+    width: 300px;
+  }
 
 
-} */
+}
