@@ -388,17 +388,38 @@ opacity: 0.8;
   header{
     flex-direction: column;
   }
-
+  .img{
+    position: relative;
+    top: 26px;
+    margin-right: 14px;
+    width: 33px;
+  }
   header .section{
     flex-direction: column;
+  }
+  section{
+    width: 800px;
+    height: 200vh;
   }
   .section {
     width: 300px;
     text-align: center;
   }
-  .respo img{
-    width: 300px;
+  .cards-read-news{
+    flex-direction: column;
   }
-
-
+  .icon_element {
+    flex-direction: column;
+  }
+  .section-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .cards {
+    flex-direction: column;
+  }
+  .events{
+    flex-direction: column;
+  }
+  
 }
