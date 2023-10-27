@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>code-together-project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&family=Inconsolata:wght@300;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+src="https://kit.fontawesome.com/7622b0deb5.js"
+crossorigin="anonymous"
+></script>
+  </head>
+  <body>
+    <nav class="container space">
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="130"
+          height="27"
+          viewBox="0 0 130 27"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_20_53)">
+            <path
+              d="M129.77 20.1089V23.326H127.071C124.191 23.2355 122.653 21.6804 122.653 18.7595V11.4121H120.768V8.58991H122.653V5.43042H126.635V8.557H129.679V11.3709H126.635V18.3646C126.635 19.3108 126.824 20.0678 128.28 20.0678L129.77 20.1089Z"
+              fill="#111111"
+            />
+            <path
+              d="M104.897 15.9867V15.7728C104.854 14.8265 104.998 13.881 105.321 12.9905C105.644 12.0999 106.14 11.2819 106.779 10.5833C107.419 9.88468 108.19 9.31918 109.049 8.91923C109.908 8.51927 110.837 8.29272 111.784 8.25256C111.973 8.25256 112.17 8.25256 112.36 8.25256C116.12 8.25256 119.419 10.4412 119.419 15.6576V16.7684H108.97C109.077 19.1709 110.377 20.5285 112.565 20.5285C114.449 20.5285 115.33 19.7057 115.585 18.5045H119.345C118.884 21.6393 116.383 23.3836 112.425 23.3836C108.081 23.3507 104.897 20.6026 104.897 15.9867ZM115.503 14.2507C115.363 12.0621 114.26 11.0089 112.343 11.0089C110.426 11.0089 109.323 12.1937 109.052 14.2507H115.503Z"
+              fill="#111111"
+            />
+            <path
+              d="M88.6386 15.9867V15.7728C88.5955 14.8278 88.739 13.8836 89.061 12.9941C89.383 12.1046 89.8772 11.2873 90.5152 10.5889C91.1533 9.8905 91.9227 9.32469 92.7795 8.9238C93.6364 8.52292 94.5638 8.29483 95.5088 8.25256C95.6981 8.25256 95.8955 8.25256 96.0848 8.25256C99.8449 8.25256 103.153 10.4412 103.153 15.6576V16.7684H92.7114C92.8183 19.1709 94.1183 20.5285 96.3069 20.5285C98.1911 20.5285 99.0715 19.7057 99.3266 18.5045H103.087C102.618 21.6393 100.116 23.3836 96.1588 23.3836C91.8228 23.3507 88.6386 20.6026 88.6386 15.9867ZM99.2443 14.2507C99.1044 12.0621 98.0019 11.0089 96.0848 11.0089C94.1677 11.0089 93.0981 12.2266 92.7936 14.2424L99.2443 14.2507Z"
+              fill="#111111"
+            />
+            <path
+              d="M65.8228 8.55701H70.0354L72.6107 18.3152L75.4329 8.55701H78.724L81.2746 18.3152L83.9898 8.55701H87.8487L83.274 23.0545H79.3247L76.8563 13.9545L74.2152 23.0545H70.2164L65.8228 8.55701Z"
+              fill="#111111"
+            />
+            <path
+              d="M52.4361 18.4962H56.1962C56.369 19.8044 57.019 20.5531 58.7469 20.5531C60.2937 20.5531 61.0095 19.969 61.0095 18.9734C61.0095 17.9778 60.1867 17.5582 58.0804 17.262C54.2215 16.6778 52.7323 15.5671 52.7323 12.7367C52.7323 9.71707 55.4969 8.2196 58.4918 8.2196C61.7089 8.2196 64.1361 9.38796 64.4817 12.7202H60.7709C60.7472 12.4626 60.6727 12.2123 60.5517 11.9836C60.4307 11.7549 60.2656 11.5525 60.066 11.388C59.8663 11.2236 59.636 11.1003 59.3884 11.0253C59.1408 10.9503 58.8808 10.9252 58.6234 10.9512H58.5C57.2 10.9512 56.4431 11.5601 56.4431 12.4487C56.4431 13.3373 57.1424 13.724 59.2652 14.0285C62.869 14.5715 64.8848 15.4848 64.8848 18.5867C64.8848 21.6886 62.6057 23.3506 58.788 23.3506C54.9703 23.3506 52.5431 21.631 52.4361 18.4962Z"
+              fill="#111111"
+            />
+            <path
+              d="M36.4576 8.55692H40.4399V10.8525C40.8887 10.0099 41.57 9.3139 42.4029 8.84717C43.2357 8.38044 44.185 8.16262 45.138 8.21958C47.9601 8.21958 50.0088 9.9392 50.0088 13.8639V23.0873H46.0759V14.4398C46.0759 12.4734 45.3107 11.5354 43.5335 11.5354C43.1579 11.5027 42.7795 11.5445 42.4201 11.6584C42.0606 11.7723 41.7273 11.9561 41.439 12.1992C41.1508 12.4424 40.9135 12.74 40.7406 13.0751C40.5677 13.4102 40.4627 13.7761 40.4316 14.1519C40.4111 14.3268 40.4111 14.5035 40.4316 14.6784V23.0544H36.4576V8.55692Z"
+              fill="#111111"
+            />
+            <path
+              d="M28.7728 4.91207C28.7584 4.51502 28.8621 4.12261 29.0708 3.78454C29.2795 3.44646 29.5838 3.17791 29.9453 3.01289C30.3067 2.84788 30.7089 2.79381 31.1011 2.85754C31.4933 2.92127 31.8577 3.09993 32.1483 3.3709C32.4388 3.64186 32.6425 3.99296 32.7334 4.37973C32.8243 4.7665 32.7984 5.17154 32.659 5.54359C32.5196 5.91564 32.2729 6.23796 31.9502 6.46973C31.6275 6.70151 31.2433 6.83232 30.8462 6.84561H30.7722C30.5257 6.86121 30.2786 6.828 30.045 6.74787C29.8114 6.66775 29.596 6.5423 29.411 6.37871C29.226 6.21512 29.0751 6.01662 28.967 5.79458C28.8589 5.57255 28.7957 5.33136 28.781 5.08485C28.7742 5.02752 28.7715 4.96978 28.7728 4.91207ZM28.7728 8.557H32.7962V23.0545H28.7893L28.7728 8.557Z"
+              fill="#111111"
+            />
+            <path
+              d="M13.6089 3.24182H26.3291V6.75511H18.1013V11.9963H24.6177V15.3779H18.0931V23.0545H13.6089V3.24182Z"
+              fill="#111111"
+            />
+            <path
+              d="M5.93228 9.72532C5.93228 10.9677 5.93228 12.4816 4.22089 13.0987C5.97342 13.6994 5.93228 14.9747 5.93228 16.3076V21.2443C5.93228 22.1823 6.31076 22.75 6.98544 22.8899C7.13369 22.9399 7.28988 22.9622 7.4462 22.9557H9.09177V26.2468H6.37658C3.48038 26.2468 1.88418 24.6013 1.88418 21.5487V15.707C1.86364 15.4071 1.7314 15.1257 1.51357 14.9186C1.29574 14.7114 1.00816 14.5934 0.707595 14.588H0V11.7H0.707595C1.01415 11.696 1.30739 11.574 1.52646 11.3596C1.74553 11.1451 1.87363 10.8545 1.88418 10.5481V4.62405C1.88418 1.62089 3.44747 0 6.37658 0H9.11646V3.24177H7.47089C7.31437 3.24222 7.1589 3.26721 7.01013 3.31582C6.33544 3.48861 5.95696 4.0481 5.95696 4.96139L5.93228 9.72532Z"
+              fill="#111111"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_20_53">
+              <rect width="130" height="26.3291" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">What We Do</a></li>
+          <li><a href="">Media</a></li>
+          <li><a href="">Contant</a></li>
+        </ul>
+        <button class="navbar_btn">Donate</button>
+      </div>
+      <div class="mobile-menu"></div>
+    </nav>
+
+    <header class="container space">
+      <div class="section">
+        <!-- line div -->
+        <div class="line">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="72"
+            height="3"
+            viewBox="0 0 72 3"
+            fill="none"
+          >
+            <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
+          </svg>
+        </div>
+        <!-- content -->
+        <div>
+          <div class="text">what we do</div>
+          <h1 class="text-color">We are working worldwide</h1>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+        </div>
+      </div>
+      <div><img src="./images/banner.png" alt="text here" /></div>
+    </header>
+
+    <section>
+      <div class="container space">
+        <h2 class="text-color">What we do for the environment</h2>
+        <div class="section-grid">
+          <div class="ele1">
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ele2">
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="ele3">
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+            <div class="icon_element">
+              <img class="img" src="./images/Icon1.svg" alt="" />
+              <div class="card">
+                <h3>Build healthy cities</h3>
+                <p class="paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="container space">
+        <div class="center">
+          <p class="text">Projects we have done</p>
+          <h2>We are creating a sustainable society, for everyone.</h2>
+        </div>
+        <div class="cards">
+          <div class="card-img">
+            <img src="./images/Tint.png" alt="" />
+            <div class="text-content">
+              <h3>Mission 40K: Tree plantation</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="secondary_btn">See more</button>
+            </div>
+          </div>
+          <div class="card-img">
+            <img src="./images/Tint2.png" alt="" />
+            <div class="text-content">
+              <h3>Mission 40K: Tree plantation</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="secondary_btn">See more</button>
+            </div>
+          </div>
+          <div class="card-img">
+            <img src="./images/Tint3.png" alt="" />
+            <div class="text-content">
+              <h3>Mission 40K: Tree plantation</h3>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="secondary_btn">See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="container space">
+      <div class="second-container">
+        <h1 class="text-width">
+          You can contribute to make the environment greener!
+        </h1>
+        <div class="buttons">
+          <button class="primary-btn">Join as a volunteer</button>
+          <button class="secondary_btn">Donate</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container space">
+      <div class="read-container container space">
+        <h2 class="read-text">Read Our News</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="cards-read-news">
+        <div class="news-card">
+          <img src="./images/Thumbnail1.png" alt="" />
+          <h4>Don’t destroy greenery and don’t spoil scenery</h4>
+          <p class="paragraph_small">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Suspendisse varius enim
+          </p>
+        </div>
+
+        <div class="news-card">
+          <img src="./images/Thumbnail2.png" alt="" />
+          <h4>Don’t destroy greenery and don’t spoil scenery</h4>
+          <p class="paragraph_small">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Suspendisse varius enim
+          </p>
+        </div>
+
+        <div class="news-card">
+          <img src="./images/Thumbnail3.png" alt="" />
+          <h4>Don’t destroy greenery and don’t spoil scenery</h4>
+          <p class="paragraph_small">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Suspendisse varius enim
+          </p>
+        </div>
+
+        <div class="news-card">
+          <img src="./images/Thumbnail4.png" alt="" />
+          <h4>Don’t destroy greenery and don’t spoil scenery</h4>
+          <p class="paragraph_small">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipiscing elit. Suspendisse varius enim
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container space">
+      <h2 class="read-text">Our Events</h2>
+      <div class="events">
+        <div class="card-events">
+          <div class="text-en">
+            <h2>23</h2>
+            <h3>sep</h3>
+          </div>
+          <div class="text-ev">
+            <p class="text-p">
+              Next Events
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="72"
+                height="3"
+                viewBox="0 0 72 3"
+                fill="none"
+              >
+                <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
+              </svg>
+            </p>
+            <h3>
+              Say no to plastic usage and save the planet
+              <img src="./images/arrow.png" alt="" />
+            </h3>
+          </div>
+        </div>
+        <div class="card-events">
+          <div class="text-en">
+            <h2>25</h2>
+            <h3>sep</h3>
+          </div>
+          <div class="text-ev">
+            <p class="text-p">
+              Next Events
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="72"
+                height="3"
+                viewBox="0 0 72 3"
+                fill="none"
+              >
+                <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
+              </svg>
+            </p>
+            <h3>
+              Say no to plastic usage and save the planet
+              <img src="./images/arrow.png" alt="" />
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+<footer>
+  <div class="container space">
+    <div class="cont-footer">
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="110"
+          height="23"
+          viewBox="0 0 110 23"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_18_30)">
+            <path
+              d="M109.805 17.0152V19.7374H107.522C105.085 19.6608 103.783 18.345 103.783 15.8735V9.65636H102.189V7.26839H103.783V4.59497H107.153V7.24054H109.728V9.62155H107.153V15.5393C107.153 16.3399 107.313 16.9804 108.545 16.9804L109.805 17.0152Z"
+              fill="white"
+            />
+            <path
+              d="M88.7589 13.5272V13.3462C88.7224 12.5455 88.8444 11.7454 89.1177 10.9919C89.391 10.2384 89.8104 9.54621 90.3517 8.95507C90.8931 8.36393 91.5458 7.88543 92.2724 7.54701C92.999 7.20859 93.7852 7.01689 94.5861 6.98291C94.7462 6.98291 94.9133 6.98291 95.0734 6.98291C98.2551 6.98291 101.047 8.83481 101.047 13.2487V14.1886H92.2051C92.2956 16.2215 93.3956 17.3703 95.2475 17.3703C96.8418 17.3703 97.5867 16.674 97.8025 15.6576H100.984C100.594 18.3101 98.4778 19.7861 95.1291 19.7861C91.4532 19.7582 88.7589 17.4329 88.7589 13.5272ZM97.7329 12.0582C97.6146 10.2063 96.6816 9.31519 95.0595 9.31519C93.4373 9.31519 92.5044 10.3177 92.2747 12.0582H97.7329Z"
+              fill="white"
+            />
+            <path
+              d="M75.0019 13.5272V13.3462C74.9654 12.5466 75.0869 11.7476 75.3593 10.995C75.6318 10.2423 76.0499 9.55078 76.5898 8.95982C77.1297 8.36886 77.7807 7.89009 78.5058 7.55088C79.2308 7.21167 80.0155 7.01867 80.8152 6.98291C80.9753 6.98291 81.1424 6.98291 81.3025 6.98291C84.4841 6.98291 87.2829 8.83481 87.2829 13.2487V14.1886H78.4481C78.5386 16.2215 79.6386 17.3703 81.4905 17.3703C83.0848 17.3703 83.8297 16.674 84.0455 15.6576H87.2272C86.8304 18.3101 84.7139 19.7861 81.3652 19.7861C77.6962 19.7582 75.0019 17.4329 75.0019 13.5272ZM83.9759 12.0582C83.8576 10.2063 82.9247 9.31519 81.3025 9.31519C79.6804 9.31519 78.7753 10.3456 78.5177 12.0513L83.9759 12.0582Z"
+              fill="white"
+            />
+            <path
+              d="M55.6962 7.24048H59.2608L61.4399 15.4974L63.8279 7.24048H66.6127L68.7709 15.4974L71.0684 7.24048H74.3336L70.4627 19.5076H67.1209L65.0323 11.8076L62.7975 19.5076H59.414L55.6962 7.24048Z"
+              fill="white"
+            />
+            <path
+              d="M44.369 15.6506H47.5506C47.6968 16.7576 48.2468 17.3912 49.7088 17.3912C51.0177 17.3912 51.6234 16.8969 51.6234 16.0544C51.6234 15.212 50.9272 14.857 49.1449 14.6063C45.8797 14.112 44.6196 13.1722 44.6196 10.7772C44.6196 8.22217 46.9588 6.95508 49.493 6.95508C52.2152 6.95508 54.269 7.94369 54.5614 10.7633H51.4215C51.4015 10.5453 51.3384 10.3335 51.236 10.14C51.1337 9.94652 50.994 9.77525 50.825 9.63607C50.656 9.49689 50.4612 9.39257 50.2517 9.32913C50.0422 9.2657 49.8222 9.2444 49.6044 9.26647H49.5C48.4 9.26647 47.7595 9.78166 47.7595 10.5336C47.7595 11.2855 48.3512 11.6127 50.1474 11.8703C53.1968 12.3298 54.9025 13.1025 54.9025 15.7272C54.9025 18.3519 52.974 19.7582 49.7436 19.7582C46.5133 19.7582 44.4595 18.3032 44.369 15.6506Z"
+              fill="white"
+            />
+            <path
+              d="M30.8488 7.24047H34.2184V9.18288C34.5982 8.46992 35.1747 7.88099 35.8794 7.48607C36.5841 7.09114 37.3873 6.90683 38.1937 6.95503C40.5817 6.95503 42.3152 8.41009 42.3152 11.731V19.5354H38.9874V12.2183C38.9874 10.5544 38.3399 9.76072 36.8361 9.76072C36.5183 9.73305 36.1981 9.76843 35.8939 9.86482C35.5898 9.96122 35.3077 10.1167 35.0638 10.3224C34.82 10.5281 34.6191 10.78 34.4728 11.0635C34.3266 11.3471 34.2377 11.6567 34.2114 11.9746C34.194 12.1227 34.194 12.2722 34.2114 12.4202V19.5076H30.8488V7.24047Z"
+              fill="white"
+            />
+            <path
+              d="M24.3462 4.15632C24.334 3.82035 24.4218 3.48832 24.5984 3.20225C24.775 2.91619 25.0325 2.68896 25.3383 2.54933C25.6441 2.4097 25.9845 2.36395 26.3163 2.41787C26.6481 2.47179 26.9565 2.62297 27.2024 2.85225C27.4482 3.08153 27.6206 3.37861 27.6975 3.70588C27.7744 4.03314 27.7525 4.37588 27.6345 4.69069C27.5166 5.0055 27.3079 5.27822 27.0348 5.47434C26.7617 5.67046 26.4366 5.78115 26.1006 5.79239H26.038C25.8294 5.80559 25.6204 5.77749 25.4227 5.70969C25.225 5.6419 25.0427 5.53574 24.8862 5.39732C24.7297 5.2589 24.602 5.09094 24.5105 4.90306C24.4191 4.71519 24.3656 4.51111 24.3532 4.30252C24.3474 4.25401 24.3451 4.20515 24.3462 4.15632ZM24.3462 7.24049H27.7506V19.5076H24.3601L24.3462 7.24049Z"
+              fill="white"
+            />
+            <path
+              d="M11.5152 2.74304H22.2785V5.71583H15.3165V10.1506H20.8304V13.012H15.3095V19.5076H11.5152V2.74304Z"
+              fill="white"
+            />
+            <path
+              d="M5.01962 8.22911C5.01962 9.28038 5.01962 10.5614 3.57152 11.0835C5.05443 11.5918 5.01962 12.6709 5.01962 13.7987V17.976C5.01962 18.7696 5.33987 19.25 5.91076 19.3684C6.0362 19.4107 6.16836 19.4296 6.30063 19.4241H7.69304V22.2089H5.39557C2.94494 22.2089 1.5943 20.8165 1.5943 18.2335V13.2905C1.57692 13.0367 1.46503 12.7987 1.28071 12.6234C1.0964 12.4481 0.853055 12.3483 0.598734 12.3437H0V9.9H0.598734C0.85813 9.89658 1.10625 9.79342 1.29162 9.61194C1.47699 9.43046 1.58538 9.18458 1.5943 8.92532V3.91266C1.5943 1.37152 2.91709 0 5.39557 0H7.71393V2.74304H6.32152C6.18909 2.74342 6.05753 2.76456 5.93165 2.8057C5.36076 2.9519 5.04051 3.42532 5.04051 4.1981L5.01962 8.22911Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_18_30">
+              <rect width="110" height="22.2785" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="listfooter">
+        <ul>
+          <p>Our team</p>
+          <li><a href="">About us</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">What we do</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul>
+          <p>More</p>
+          <li><a href="">Project</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Donate</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+        <ul>
+          <p>Connect</p>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Linkdin</a></li>
+        </ul>
+      </div>
+      <div class="form">
+        <h1>Subscribe to get latest updates</h1>
+        <input type="text" placeholder="your email" />
+        <button class="secondary_btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
