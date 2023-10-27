@@ -302,7 +302,7 @@ margin-top: -30px;
   padding-top: 80px;
   display: flex;
   justify-content: space-between;
-  gap: 202px;
+  gap: 154px;
 }
 .listfooter{
   display: flex;
@@ -372,5 +372,5 @@ opacity: 0.8;
 
 @media screen and (max-width: 768px){
 
-  
+
 }
